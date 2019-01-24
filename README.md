@@ -10,7 +10,7 @@ Features:
 * Optional initial rigid registration using standard iterative closest point.
 * Optional bi-directional distance metric which encourages surface deformations to cover more of the target surface
 * Handles missing data in the target surface by ignoring correspondences with points on target edges.
-* *Optional landmarks can be used.*
+* ##Optional landmarks can be used.##
 
 ## Dependencies
 
@@ -21,5 +21,8 @@ Requires:
 
 ## Installation
 
-Download the nricp directory and the dependencies and add them to your MATLAB path.
+Download this directory and the dependencies and add them to your MATLAB path.
 
+## Usage
+
+You need to provide the model to be registered, and then modify the test.m, after that you can run test.m.
