@@ -10,7 +10,7 @@ Features:
 * Optional initial rigid registration using standard iterative closest point.
 * Optional bi-directional distance metric which encourages surface deformations to cover more of the target surface
 * Handles missing data in the target surface by ignoring correspondences with points on target edges.
-* ##Optional landmarks can be used.##
+* **Optional landmarks can be used.**
 
 ## Dependencies
 
