@@ -39,7 +39,7 @@ scan_tri = Tri';
 % save('output/select_part/points/base_tri.txt', 'd', '-ascii');
 
 % Calculation normal
-basee_norm = NormDirection(base_ver, base_tri);
+base_norm = NormDirection(base_ver, base_tri);
 scan_norm = NormDirection(scan_ver, scan_tri);
 
 % Save mesh struct
