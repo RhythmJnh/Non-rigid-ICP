@@ -16,4 +16,4 @@ Options.useNormals = 1;
 Options.plot = 1;
 
 % Perform non-rigid ICP
-[pointsTransformed, X] = nricp(Source, TargetMissing, Options);
+[pointsTransformed, X] = nricp_landmarks(Source, TargetMissing, Options);
