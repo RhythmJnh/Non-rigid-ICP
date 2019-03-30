@@ -25,4 +25,4 @@ Download this directory and the dependencies and add them to your MATLAB path.
 
 ## Usage
 
-You need to provide the model to be registered, and then modify the test.m, after that you can run test.m.
+You need to provide the models to be registered, and then modify the test.m, after that you can run test.m.
