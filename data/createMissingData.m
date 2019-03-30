@@ -18,7 +18,7 @@ for v=1:numel(flatFaces)
     else
         flatFacesNew(v) = newVert;
     end
-%     disp(v);
+    disp(v);
 end
 newFaces = reshape(flatFacesNew, numel(flatFacesNew)/3, 3);
 newFaces = newFaces(~any(isnan(newFaces),2),:); 
@@ -27,4 +27,4 @@ TargetMissing.vertices = newVerts;
 TargetMissing.faces = newFaces;
 TargetMissing.normals = newNormals;
 
-save('../data/faceTargetMissing_test.mat', 'TargetMissing')
+save('faceTargetMissing.mat', 'TargetMissing')
